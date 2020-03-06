@@ -5,6 +5,7 @@ http = require("http"),
 httpStatus = require("http-status-codes"),
 router = require("./router"),
 contentTypes = require("./content-types"),
+homeController = require("./controllers/homeController"),
 utils = require("./utils");
 
 //라우트 등록
